@@ -1,0 +1,8 @@
+<div>
+    <div>{{book.title}}</div>
+    <div>{{book.author}}</div>
+    <div>{{book.description}}</div>
+    <div>{{book.rating}}</div>
+    <div>{{book.price}}</div>
+    <div><input type="checkbox" [checked]="isInWishList" (change)="onToggleInWishList.emit(book)"></div>
+</div>

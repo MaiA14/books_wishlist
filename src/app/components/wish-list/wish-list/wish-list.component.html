@@ -1,0 +1,5 @@
+<div class="container">
+    <li *ngFor="let book of books">{{book.title}}
+        <button value={{book.title}} (click)="removeBookFromWishList($event)">X</button>
+    </li>
+</div>

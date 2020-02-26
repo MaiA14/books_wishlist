@@ -1,0 +1,5 @@
+<div class="book-carusel">
+    <button (click)="onGetNextBook(-1)">&lt;</button>
+    <app-book-preview [book]="book$ |async" (onToggleInWishList)="onToggleInWishList($event)"></app-book-preview>
+    <button (click)="onGetNextBook(1)">&gt;</button>
+</div>
