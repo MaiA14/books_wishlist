@@ -1,8 +1,15 @@
-<div>
-    <div>{{book.title}}</div>
-    <div>{{book.author}}</div>
-    <div>{{book.description}}</div>
-    <div>{{book.rating}}</div>
-    <div>{{book.price}}</div>
-    <div><input type="checkbox" [checked]="isInWishList" (change)="onToggleInWishList.emit(book)"></div>
+<div class="preview-container">
+    <div class="book-details">
+        <div class="book-title-and-checkbox">
+            <p class="book-title">{{book.title}}</p>
+            <input type="checkbox" [checked]="isInWishList" (change)="onToggleInWishList.emit(book)">
+        </div>
+        <hr />
+        <p class="book-author">{{book.author}}</p>
+        <p class="book-description">{{book.description}}</p>
+        <div class="rating-and-price">
+            <p>Rating: {{book.rating}}</p>
+            <p>Price: ${{book.price}}</p>
+        </div>
+    </div>
 </div>

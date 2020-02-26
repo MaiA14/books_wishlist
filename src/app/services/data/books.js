@@ -7,20 +7,6 @@ const BOOKS = [
         "price": "16.35"
     },
     {
-        "title": "The Day Lasts More than a Hundred Years",
-        "description": "Set in the vast windswept Central Asian steppes and the infinite reaches of galactic space, this powerful novel offers a vivid view of the culture and values of the Soviet Union�s Central Asian peoples.",
-        "rating": "4.5",
-        "author": "Chingiz Aitmatov",
-        "price": "24"
-    },
-    {
-        "title": "The Element of Surprise: Navy SEALS in Vietnam",
-        "description": "t used to be said that the night belonged to Charlie. But that wasn't true where SEALs patrolled. For six months in 1970, fourteen men in Juliett Platoon of the Navy's SEAL Team One--incuding the author--carried out over a hundred missions in the Mekong Delta without a single platoon fatality. Their primary mission: kidnap enemy soldiers--alive--for interrogation.",
-        "rating": "4.3",
-        "author": "Darryl Young",
-        "price": "7.99"
-    },
-    {
         "title": "The Hobbit",
         "description": "Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely traveling any farther than his pantry or cellar. But his contentment is disturbed when the wizard Gandalf and a company of dwarves arrive on his doorstep one day to whisk him away on an adventure. They have launched a plot to raid the treasure hoard guarded by Smaug the Magnificent, a large and very dangerous dragon. Bilbo reluctantly joins their quest, unaware that on his journey to the Lonely Mountain he will encounter both a magic ring and a frightening creature known as Gollum.",
         "rating": "4.7",
@@ -47,20 +33,6 @@ const BOOKS = [
         "rating": "3.2",
         "author": "Sarah Stark",
         "price": "10.14"
-    },
-    {
-        "title": "Crafting with Cat Hair: Cute Handicrafts to Make with Your Cat",
-        "description": "Got fur balls?",
-        "rating": "3.6",
-        "author": "Kaori Tsutaya",
-        "price": "9.97"
-    },
-    {
-        "title": "The Yiddish Policemen's Union Kindle Edition",
-        "description": "Set in the Jewish homeland of � Alaska, this is a brilliantly original novel from Michael Chabon, author of THE ADVENTURES OF KAVALIER & CLAY and WONDER BOYS.",
-        "rating": "3.7",
-        "author": "Michael Chabon",
-        "price": "21.33"
     },
     {
         "title": "One More Day",
