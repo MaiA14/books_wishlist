@@ -1,0 +1,19 @@
+.wishlist-container{
+    background-color: white;
+    padding: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-title{
+    width: 200px;
+}
+
+.close-button{ 
+    font-weight: bold;
+    color: white;
+    background-color: rgb(151,133,133); 
+    border: none;
+    outline:none;
+}

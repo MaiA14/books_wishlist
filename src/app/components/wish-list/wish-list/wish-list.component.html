@@ -1,5 +1,8 @@
-<div class="container">
-    <li *ngFor="let book of books">{{book.title}}
-        <button value={{book.title}} (click)="removeBookFromWishList($event)">X</button>
-    </li>
+<div class="">
+    <div *ngFor="let book of books">
+        <div class="wishlist-container">
+            <div class="book-title">{{book.title}}</div>
+            <button class="close-button" value={{book.title}} (click)="removeBookFromWishList($event)">X</button>
+        </div>
+    </div>
 </div>
