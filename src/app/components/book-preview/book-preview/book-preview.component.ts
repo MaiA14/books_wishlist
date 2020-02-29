@@ -12,9 +12,15 @@ export class BookPreviewComponent implements OnInit {
   @Output() onToggleInWishList = new EventEmitter<BookModel>()
   constructor(private bookService: BookService) { }
 
-  get isInWishList(){ 
+  get isInWishList() {
     return this.bookService.isBookInWishlist(this.book)
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
+
+  roundRating(book): number {
+    let roundedRating = Math.round(book.rating);
+    return roundedRating;
+  }
+
 }

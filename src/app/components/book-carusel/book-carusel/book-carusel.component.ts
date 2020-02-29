@@ -9,6 +9,7 @@ import { BookService } from '../../../services/book.service.js'
 export class BookCaruselComponent implements OnInit {
 
   book$;
+  Math = Math;
   constructor(private bookService:BookService) { }
 
   onToggleInWishList(book){
