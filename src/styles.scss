@@ -19,3 +19,44 @@ body{
     font-family: ZCOOL;
     src: url(./assets/fonts/ZCOOL_QingKe_HuangYou/ZCOOLQingKeHuangYou-Regular.ttf);
 }
+
+
+@media(max-width:800px){
+    .app-container{
+        max-width: 600px;
+    }
+
+    .wislist-container{
+        margin-left: 0px;
+    }    
+}
+
+
+@media (max-width: 750px){
+
+    .app-container{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+    }
+
+    .main-cmps{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .app-book-carusel{        
+        margin-bottom: 20px;
+    }
+
+    .wishlist-container{
+        margin-top: 20px;
+    }
+
+    .wishlist{
+        margin: 15px;
+    }
+}
+

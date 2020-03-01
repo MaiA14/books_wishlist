@@ -10,3 +10,9 @@ button{
   font-size: 30px;
   font-family: ZCOOL;
 }
+
+@media(max-width:480px){
+  .book-carusel{
+    display: grid;
+  }
+}
