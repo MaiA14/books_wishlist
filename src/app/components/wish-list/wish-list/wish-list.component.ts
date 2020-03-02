@@ -20,8 +20,16 @@ export class WishListComponent implements OnInit, OnDestroy {
     })
   }
 
+  calcTotalPriceOfWishlist(books): number {
+    let totalPrice = 0;
+    for (let i = 0; i < books.length; i++) {
+      totalPrice += +books[i].price;
+    }
+    return +totalPrice.toFixed(2);
+  }
+
   removeBookFromWishList(event) {
-    this.bookService.toggleWishList(null,event.target.value)
+    this.bookService.toggleWishList(null, event.target.value)
   }
 
   ngOnDestroy(): void {
