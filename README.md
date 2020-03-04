@@ -1,4 +1,8 @@
-# Books wish list
+# Books wish list 
+
+A single page app that manages a user's book wish-list. App is Developed with Angular 9 and CSS3.
+
+![Image of Yaktocat](https://res.cloudinary.com/dtwqtpteb/image/upload/v1583349321/ix4zrmk8iusftjv15hzl.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
