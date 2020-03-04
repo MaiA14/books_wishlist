@@ -2,7 +2,16 @@
 
 A single page app that manages a user's book wish-list. App is Developed with Angular 9 and CSS3.
 
+You can add book to your wish-list by clicking on the checkbox, you can remove book from the wish list by clicking again on the checkbox, or by clicking on the close button on preview of the wish list. For every update (removing or adding to the wish list), the amount you need to pay is update.
+
 ![Image of Yaktocat](https://res.cloudinary.com/dtwqtpteb/image/upload/v1583349321/ix4zrmk8iusftjv15hzl.png)
+
+Of course there is option to move to another book and adding it to the wish list. You can read a short description and see it's rating.
+
+
+![Image of Yaktocat](https://res.cloudinary.com/dtwqtpteb/image/upload/v1583356491/hsdla4vgwmf2ftvbbtaf.png)
+
+The app supports various mobile and browsers.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
