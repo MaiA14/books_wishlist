@@ -13,6 +13,8 @@ Of course there is option to move to another book and adding it to the wish list
 
 The app supports various mobile and browsers.
 
+![Image of Yaktocat](https://i.ibb.co/0FR3jrC/New-Project-11.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
 ## Development server
